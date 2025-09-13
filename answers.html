@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+   <link rel="icon" type="image/svg" href="/images/favicon.svg"/>
+
+    <title>Spot the Differences</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="https://static.matterport.com/showcase-sdk/latest.js"></script>
+  </head>
+
+<body>
+
+ <div id="game-interface">
+   <header>
+     <div class="img">
+       <img 
+         alt="Matterport Logo - Dark" 
+         src="./images/costar.png" 
+       >
+     </div>
+      <h2>Time Left:&nbsp<Time left = <span id="timer"></h2> 
+      <h4>AI-powered gameplay with digital twins</h4>
+   </header>
+     <div id="info">
+       <h3>Spot the differenece between these Matterport Digital Twins! &emsp;Use the LEFT tour to navigate.</h3>
+     </div>
+
+   <article style="position:absolute">
+     <div id="wrapper">
+       <iframe
+         id="showcase-host"
+         src="https://my.matterport.com/show/?m=xB72BrYZjCq&play=1&qs=1&applicationKey=my1unmcyza10z52eknxb971wa"
+         allow="xr-spatial-tracking"
+         allowfullscreen
+         align="center"
+       >
+       </iframe>
+       <iframe
+         id="showcase-client"
+         src="https://my.matterport.com/show/?m=zeasBgZyy8E&play=1&qs=1&applicationKey=my1unmcyza10z52eknxb971wa"
+         allow="xr-spatial-tracking"
+         allowfullscreen
+         align="center"
+       >
+       </iframe>
+     </div>
+   </article>
+ <div id="showcase-block"> <div class="break"></div></div>
+ <div><h5 style="font-size: 28pt; justify-content: center; position: absolute; bottom: 16vh;">Special thank to Black Tap Craft Burgers & Beer - Nashville!!</h5></div>   
+   <footer>
+     <div>
+       <img
+         alt="Matterport AU Partner Logo"
+         src="./images/AUP.png"
+       >
+       </img>
+     </div>
+   </footer>
+ </div>
+
+
+ <script src="app.js"></script>
+ <html></html>
+
+</body>
+</html>
