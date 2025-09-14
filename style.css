@@ -61,7 +61,7 @@ h4{
   align-self: flex-end;
   display: flex;
   justify-content: flex-end;
-  margin: 0 15px 10px 0;
+  margin: 0 15px 10px 90px;
   text-wrap: balance;
   width: 276px;
   text-align: left;
@@ -237,6 +237,11 @@ table {
 #game-interface {
   display: none;
 }
+
+#answers {  
+  display: block;
+}
+
 #game-start-screen {
   width: 100vw;
   height: 98vh;
@@ -300,3 +305,20 @@ div {
     width: 50%;
     left: 50%;
 }
+
+.game-button {
+    border-radius: 6rem;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #222222;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    height: 50px;
+    align-self: center;
+    margin: 0 20px 0 20px;
+}
+
+.game-button:hover{
+  background-color: #FF3158  
+}
+

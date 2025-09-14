@@ -33,7 +33,7 @@ const startGameTimer = () => {
     console.log(counter);
     //document.getElementById("timer").innerText = counter;
     // see if counter reached 5 mins
-    if (counter === 300) {
+    if (counter === 15) {
       // Show Game Over Banner
       document.getElementById("game-over-banner").style.opacity = "1";
       document.getElementById("game-over-banner").style.zIndex = 1000000;
@@ -45,11 +45,11 @@ const startGameTimer = () => {
 }
 
 // Wait 15 seconds after game ends then rolad the webpage to restart the game
-async function reload(){
-  await sleep(150000);
-  location.reload();
-  console.log("reboot");
-}
+//async function reload(){
+//  await sleep(150000);
+//  location.reload();
+//  console.log("reboot");
+//}
 
 // Creats min / sec timer for game display (I know it's redundant, don't care)
 function startTimer() {
