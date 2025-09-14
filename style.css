@@ -35,8 +35,10 @@ h1 {
 header img {
   width: auto;
   height: 75px;
-  align-self: center;
-  margin: 0 0 0 3px;}
+  align-self: flex-end;
+  margin: 0 0 10px 15px;
+}
+
 h2 {
   position: absolute;
   left: 50%;
